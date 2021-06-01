@@ -27,7 +27,7 @@ $toEmail = "yqureishy1993@gmail.com"; // Replace Your Email Address
   // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "no-reply@gmail.com";  // Replace Company's Email Address (preferably currently used Domain Name)
+$fromEmail = "yqureishy@younus-qureishy.com";  // Replace Company's Email Address (preferably currently used Domain Name)
 $fromName = "Company Name"; // Replace Company Name
 
 
@@ -52,6 +52,16 @@ if (isset($_POST['name'])) {
 ---------------------------------------------------*/
 
 $mail = new PHPMailer(true);
+
+
+$mail->isSMTP();
+$mail->SMTPDebug = 0;
+$mail->Host = 'gator4304.hostgator.com';
+$mail->SMTPAuth = true;
+$mail->Username = "yqureishy@younus-qureishy.com";
+$mail->Password = "Younus1993";
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
 /* Add your SMTP Codes after this Line */
 

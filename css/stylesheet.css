@@ -280,6 +280,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.3125rem !important;
 }
 
+#text-5{
+  font-size: 20px;
+  font: italic;
+  font-weight: 400;
+}
+
 .text-6 {
   font-size: 24px !important;
   font-size: 1.50rem !important;
@@ -2535,10 +2541,9 @@ hr {
 }
 
 .ajax-container {
-  position: relative;
+  position: left;
   background: #FFF;
   margin: 40px auto;
-  max-width: 1170px;
   padding: 30px;
   text-align: left;
 }
