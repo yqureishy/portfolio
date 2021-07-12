@@ -148,7 +148,7 @@ if (filter_var($toEmail, FILTER_VALIDATE_EMAIL)) {
 	}
 	//----- reCaptcha End -----//
 
-	$success = "Thank you for contacting us and will be in touch with you very soon."; // Success Message
+	$success = "Thank you for reaching out to me. I will respond back as soon as possible."; // Success Message
 
 	try {
 		$resp = $mail->send();
